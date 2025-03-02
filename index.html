@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VR Chemistry Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="lab-container"></div>
+  <div id="menu">
+    <h2>Chemistry Lab</h2>
+    <button onclick="startExperiment('acid-base')">Acid-Base Reaction</button>
+    <button onclick="resetLab()">Reset Experiment</button>
+  </div>
+  <div id="instructions">
+    <h3>Instructions</h3>
+    <p id="instruction-text">Select an experiment to begin.</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
